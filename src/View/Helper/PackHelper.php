@@ -17,7 +17,7 @@ class PackHelper extends Helper
      *
      * @var array
      */
-    protected $_defaultConfig = [
+    protected array $_defaultConfig = [
         'templates' => [
             'script' => '<script {{attr}}>window.{{namespace}}={};{{variables}}</script>'
         ],
